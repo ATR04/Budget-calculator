@@ -1,13 +1,116 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,1) 24%, rgba(0,212,255,1) 87%);
+
+}
+h1{
+  width:25%;
+  margin: auto;
+ padding:5px;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  font-family: 'Figtree', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  transition: transform 0.5s;
+
+}
+h1:hover{
+  transform: scale(1.2);
+}
+.container{
+  display: flex;
+  justify-content: center;
+
+}
+.num{
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form{
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  transition: transform 0.5s;
+  margin-bottom: 10px;
+}
+form:hover{
+  transform: scale(1.2);
+}
+.btn-1{
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.activity{
+  margin-right: 1rem;
+  font-size: 20px;
+  font-family: 'Poiret One', cursive;
+}
+.amount{
+  margin-right: 1rem;
+  font-size: 20px;
+  font-family: 'Poiret One', cursive;
+}
+input{
+  border-radius: 15px;
+  height:20px;
+}
+.list{
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: 'Poiret One', cursive;
+  font-weight:normal;
+  transition: transform 0.5s;
+}
+.list:hover{
+  transform: scale(1.2);
+}
+h2{
+  margin: 5px 50px;
+  height:20px;
+}
+p{
+  margin: 5px 50px;
+  padding-top:7px;
+}
+.btn-2{
+ height: 30px;
+ margin: auto;
+}
+
+h3{
+  width:25%;
+  margin: auto;
+  padding:5px;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: 'Figtree', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+h3:hover{
+  transform: scale(1.2);
+}
+span{
+  color: #FF0032;
 }
